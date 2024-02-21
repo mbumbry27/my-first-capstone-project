@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Capstone Project 1</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body style="background-color:rgb(74, 71, 71);">
+
+        <div class="topnav">
+            <a href="first-page.html">Home </a>
+            <a href="second-page.html">News</a>
+            <a href="third-page.html">Tour Dates</a>
+            <a href="fourth-page.html">Gallery</a>
+        </div>
+
+        <p>This is the news page. Sign up here to get updates and be informed about anything and everything Kendrick Lamar. From new music drops to meet and greet events, to concerts and show all over the world. Dont miss out!</p>
+
+        <form method="post">
+
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <p>
+                    Do you want email notifications for upcoming events and concerts?
+                    <div>
+                        <input type="radio" id="yes" name="drone" value="yes" checked />
+                        <label for="html">Yes</label>
+                      </div>
+
+                      <div>
+                        <input type="radio" id="no" name="drone" value="no" />
+                        <label for="css">No</label>
+                      </div>
+                </p>
+
+                <div>
+                    <label for="favorite">What's your favorite Kendrick Lamar song?</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                  <div>
+                    <input type="checkbox" id="terms" name="terms" checked />
+                    <label for="terms">Agree to terms and conditions</label>
+                  </div>
+
+                  <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
